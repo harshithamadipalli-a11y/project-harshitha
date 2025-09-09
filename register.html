@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            User Register
+        </title>
+        <style> 
+          form{
+             background-color: blueviolet;
+          }
+
+        </style>
+    </head>
+    <body>
+
+        <form action="action.php"method="post">
+
+            <input type="text" name="username" place holder="Enter the user name..." required="true" readonly value="HARSHITHA">
+            <br><br>
+            <input type="number" name="mobilenumber" placeholder="Enter the mobile number " required>
+            <br><br>
+            <input type="email" name="email" placeholder="Enter the email"  required>
+            <br><br>
+            <input type="password" name="password" placeholder="enter the password" required>
+            <br><br>
+            <input type="date"name="date" required>
+            <br><br>
+            <input type="time" name="time" required>
+            <br><br>
+            <input type="tel" name="tel" required>
+            <br><br>
+            <input type="radio" name="gender" value="male" required> male
+            <input type="radio" name="gender" value="female" required> female
+            <br><br>
+            <input type="checkbox" name="accept"required> Data Accepted
+            <br><br>
+            <input type="range" min="0" max="100" required> Age Number
+            <br><br>
+            <input type="color" name="color" required>
+
+            <br><br>
+
+            <input tyupe="hidden" value="harshitha" name="name">
+            <br><br>
+            <select name="Branch" required>
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="AIML">AIML</option>
+                <option value="DS">DS</option>
+            </select> <br><br>
+
+            <input type="file" name="file{}"multiple required>
+            <br><br>
+
+            <textarea name="adress"
+                     cols="le" rows="3"
+                     placeholder="Enter your address"
+                     required > </textarea>
+            <input type="submit" value=" submit">
+            <br><br>
+            <input type="reset" value="reset">
+            <br><br>
+            <input type="button" value="button">
+        </form>
+    </body>
+</html>
